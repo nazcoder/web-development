@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>my cirriculum vitae</title>
+	<title>My Curriculum Vitate</title>
+	<!--TODO: add the following kinds of <meta> elements:
+		<meta charset="utf-8">
+	 	<meta name="Description" />
+		<meta name="keywords"
+		<meta name="viewport" />
+	Read the Mozilla Dev Network's description of this element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+	Then look at the HTML5 boilerplate for an idea of how to use it: https://html5boilerplate.com/  
+	-->
 </head>
 <body>
+	<!--a <header> as a direct descendant of the body is going to be like a "site header"; 
+		it will be on every single web page in your site.
+		Only put information in your "global header" and "global footer" that will go on every page
+	-->
 	<header>
-		<h1><center>Nazish Ahmad</center></h1>
+		<!--GOOD use of an <h1>. The first <h1> tells search engines what the page is about
+			The <center> element is removed. it is obsolete: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center
+			I'd recommend reading Diving deep into HTML5, 
+			and reviewing the HTML reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-	    <p>Hi, I'm Nazish. A computer science engineering student who love to solve problem.  </p>
-	    <p>I'm from Bihar, an eastern state of India. I'm currently living in New delhi, national capital of india. I've learned C programming and java but want to shift my career and learn JavaScript and its framework. I want to be a full stack developer, so just started learning web development from scratch.
-	    </p>
-	    <p>By the way, I also play chess and read book, because it make me feel good. </p>
+		-->
+		<h1>Nazish Ahmad</h1>
+	    <p>Hi, I'm Nazish. A computer science engineering student who love to solve problem.</p>
 	</header>
-	
+	<!--
+		I've added a <main> element. 
+		This is how you tell browsers and search engines, "this is the content that's different on every page"
 
-	<footer>
-		<p>Contact me:
-             <a href="mailto:ahmadnazish0@gmail.com">ahmadnazish0@gmail.com</a>
+		TODO: Add some <h2> to separate the different trains of thought, e.g. <h2>Where I am</h2>
+	-->
+	<main>		
+		<p>I'm from Bihar, an eastern state of India. I'm currently living in New delhi, national capital of india. I've learned C programming and java but want to shift my career and learn JavaScript and its framework. I want to be a full stack developer, so just started learning web development from scratch.
 		</p>
-
+		<p>By the way, I also play chess and read book, because it make me feel good. </p>
+	</main>
+	<footer>
+		<!-- Use address for contact information: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address 
+		-->
+		<address>Contact me:
+             <a href="mailto:ahmadnazish0@gmail.com">ahmadnazish0@gmail.com</a>
+		</address>
+		<!--
+			TODO: add a copyright notice
+		-->
 	</footer>
-
 </body>
 </html>
