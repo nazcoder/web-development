@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enquery Form </title>
+	<meta charset="utf-8">
+	<meta name="Description" content="This page show form to submit queries">
+	<meta name="keywords" content="nazish, contact">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Nazish Ahmad</h1>
+	    <p>Hi, I'm Nazish. A computer science engineering student who love to solve problem.</p>
+	</header>
+	<main>	
+		<form>
+			<label for="name">Name:</label>
+			<input id="name" type="text" name="name" required><br>
+
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email" required><br>
+
+			<label for="phone">Phone No:</label>
+			<input id="phone" type="phone" name="phone" required><br>
+
+			<label for="subject">Subject:</label>
+			<input id="subject" type="text" name="subject" required><br>
+
+			<label for="message">Message:</label>
+			<textarea rows="10" cols="20" id="message" required=""></textarea><br>
+
+			<label for="contact">Choose a prefered method for contact:</label>
+			<select id="contact" name="prefered" required>
+				<option value="" disabled selected>Phone/Email</option>
+				<option value="phone">Phone</option>
+				<option value="email">Email</option>
+			</select><br>
+
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	    	
+	</main>
+	<footer>
+		<address>You can contact me via <a href="mailto:ahmadnazish0@gmail.com">ahmadnazish0@gmail.com</a></address>
+		<p>&copy; Copyright 2019 All Right Reserved</p>
+	</footer>
+
+</body>
+</html>
